@@ -39,7 +39,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
                     MessageBoxW(hwnd, welcomeMessage.c_str(), L"Login bem-sucedido", MB_OK);
 
                 }
-                else if (usernameStr == L"Raphael" && passwordStr == L"123456") {
+                else if (usernameStr == L"Gabriel" && passwordStr == L"250302") {
                     std::wstring welcomeMessage = L"Bem-vindo, " + usernameStr + L"!";
                     MessageBoxW(hwnd, welcomeMessage.c_str(), L"Login bem-sucedido", MB_OK);
                 }
@@ -55,7 +55,6 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) 
                     std::wstring welcomeMessage = L"Bem-vindo, " + usernameStr + L"!";
                     MessageBoxW(hwnd, welcomeMessage.c_str(), L"Login bem-sucedido", MB_OK);
                 }
-                
                 else if (usernameStr == L"Leo" && passwordStr == L"vianna2503") {
                 std::wstring welcomeMessage = L"Bem-vindo, " + usernameStr + L"!";
                 MessageBoxW(hwnd, welcomeMessage.c_str(), L"Login bem-sucedido", MB_OK);
